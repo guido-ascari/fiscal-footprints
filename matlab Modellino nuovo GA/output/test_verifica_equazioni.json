@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "valid_parameter_sets": 5,
+  "implementations": 2,
+  "deliberate_numerical_errors_detected": 31,
+  "automatic_stop_test": true,
+  "public_debt_analytic_test": true,
+  "terminal_tail_direct_sum_test": true,
+  "short_horizon_rejected": true,
+  "shape_test": true,
+  "matlab_version": "24.2.0.2863752 (R2024b) Update 5"
+}

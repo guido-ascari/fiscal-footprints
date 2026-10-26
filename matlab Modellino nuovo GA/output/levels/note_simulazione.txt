@@ -1,0 +1,39 @@
+Fiscal footprints - versione levels
+
+Verifica ex post: SUPERATA (284 righe di controllo).
+Massimo errore normalizzato: 0.000444089 (deve essere <= 1).
+Vedere verifica_equazioni.csv e residui_per_periodo.csv.
+
+Un periodo = un anno; PIL di riferimento = 100.
+J = 10; H = 800; revisione terminale permanente = -0.15.
+beta=0.96, sigma=1, nu=1, theta=0.6, phi=0.8
+kappa=0.565333333333; rho=0.849254328863; costo news VA=3.01650627608
+
+Riserve ampie
+  Inflazione iniziale: 3.8427345076 punti percentuali
+  Output iniziale: 1.2555671267 percento
+  VA correzione aggiuntiva: 0
+  Primo intervento: NaN (NaN significa nessun intervento)
+  Residuo del vincolo fiscale: 8.882e-16
+
+  Debito pubblico terminale: 56.4
+  Debito terminale scontato: 3.75e-13
+  Componente esplosiva scontata: 9.603e-14
+  Limite della coda omessa: 4.124e-13 (tolleranza 1e-9)
+
+Esaurimento previsto
+  Inflazione iniziale: -0.0000000000 punti percentuali
+  Output iniziale: -0.0000000000 percento
+  VA correzione aggiuntiva: 3.01650627608
+  Primo intervento: 7 (NaN significa nessun intervento)
+  Residuo del vincolo fiscale: -5.287e-15
+
+  Debito pubblico terminale: 62.6
+  Debito terminale scontato: 4.107e-13
+  Componente esplosiva scontata: 9.282e-14
+  Limite della coda omessa: 4.107e-13 (tolleranza 1e-9)
+
+Le risposte sono rispetto al riferimento senza news di ciascuno scenario.
+I CSV contengono tutti gli anni 0,...,H; la figura mostra solo 0,...,SHOW.
+Le proiezioni senza intervento nei CSV possono diventare negative: sono
+controfattuali contabili, troncati al primo zero soltanto nel grafico.

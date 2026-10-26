@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "matlab_version": "24.2.0.2863752 (R2024b) Update 5",
+  "max_absolute_error_vs_python": 2.7755575615628914E-15,
+  "ample_inflation_pp": 3.1538812394806173,
+  "poor_inflation_pp": 0,
+  "ample_output_percent": 1.8956807767332873,
+  "present_value_cost": 3.0165062760764636,
+  "depletion_breach": 7,
+  "reference_depletion_breach": 8
+}
